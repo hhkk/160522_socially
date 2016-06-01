@@ -11,7 +11,7 @@ import { Parties }   from '../collections/parties';
 import { Mongo }     from 'meteor/mongo';
 
 @Component({
-    selector: 'app2x',      // hijack this tag in index.html
+    selector: 'app2x',      // hijack this tag in index.html        hhkk
     templateUrl: 'client/app4.html' // and put this in its place
 })
 
