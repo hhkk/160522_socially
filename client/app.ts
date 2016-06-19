@@ -7,7 +7,7 @@ import { PartiesListxxx } from './imports/parties-list/parties-list.ts';
 import { PartyDetails } from './imports/party-details/party-details.ts';
 
 @Component({
-  selector: 'app',
+  selector: 'appx',
   templateUrl: '/client/app.html',
   directives: [ROUTER_DIRECTIVES]
 })

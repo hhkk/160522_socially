@@ -1,4 +1,4 @@
-import { Component, NgZone } from '@angular/core';
+  import { Component, NgZone } from '@angular/core';
 import { RouteParams, RouterLink } from '@angular/router-deprecated';
 import { Tracker } from 'meteor/tracker';
 import {Parties} from '../../../collections/parties.ts';

@@ -3,11 +3,18 @@ import { Parties } from '../collections/parties.ts';
 export function loadParties() {
   if (Parties.find().count() === 0) {
 
+    console.log ('HK run111111111111111');
+
     var parties = [
       {
         'name': 'Dubstep-Free Zone',
         'description': 'Can we please just for an evening not listen to dubstep.',
         'location': 'Palo Alto'
+      },
+      {
+        'name': 'BKDubstep-Free Zone',
+        'description': 'HKCan we please just for an evening not listen to dubstep.',
+        'location': 'HKPalo Alto'
       },
       {
         'name': 'All dubstep all the time',
