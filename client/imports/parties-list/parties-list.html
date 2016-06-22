@@ -1,7 +1,10 @@
 <div>
   <parties-form></parties-form>
   <ul>
-    <li *ngFor="let party of parties">
+    <li *ngFor="let party of parties; let i = index">
+        in the for loop3 <br>
+        index {{i}}
+        <br>
       <a [routerLink]="['/PartyDetails', {partyId: party._id}]">{{party.name}}</a>
       <p>{{party.description}}</p>
       <p>{{party.location}}</p>
