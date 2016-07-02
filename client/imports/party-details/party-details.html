@@ -1,4 +1,6 @@
 <form (submit)="saveParty(party)">
+  HKTEST: this is party-details.html {{hkhkparty-details}}
+
   <label>inx client\imports\party-details\party-details.html </label>
     <br>
   <label>Namex </label>
@@ -10,6 +12,8 @@
   <label>Location</label>
   <input type="text" [(ngModel)]="party.location">
 
-  <button type="submit">Save</button>
-  <button [routerLink]="['/PartiesListxxx']">Cancel</button>
+  <button type="submit">Save1</button>
+  <!--<button [routerLink]="['/PartiesList']" type="submit">Save2</button>-->
+
+  <button [routerLink]="['/PartiesList']">Cancel</button>
 </form>

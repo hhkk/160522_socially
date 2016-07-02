@@ -11,6 +11,7 @@ export class PartiesForm {
   partiesForm: ControlGroup;
 
   constructor() {
+    //this.hkhkpartiesform = 'gghkhkpartiesform';
     let fb = new FormBuilder();
 
     this.partiesForm = fb.group({

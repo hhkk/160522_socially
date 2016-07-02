@@ -10,9 +10,9 @@ import {Parties} from '../../../collections/parties.ts';
 })
 export class PartyDetails {
   party: Party;
-
   constructor(params: RouteParams, ngZone: NgZone) {
     var partyId = params.get('partyId');
+
 
     Tracker.autorun(() => {
       ngZone.run(() => {
@@ -22,6 +22,7 @@ export class PartyDetails {
   }
 
   saveParty(party) {
+    console.log ('hihk from saveParty');
     Parties.update(party._id, {
       $set: {
         name: party.name,

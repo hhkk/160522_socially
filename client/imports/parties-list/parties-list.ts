@@ -10,8 +10,9 @@ import { RouterLink }  from '@angular/router-deprecated';
   templateUrl: '/client/imports/parties-list/parties-list.html',
   directives: [PartiesForm, RouterLink]
 })
-export class PartiesListxxx {
+export class PartiesList {
   parties: Mongo.Cursor<Party>;
+  hkhkpartiesform = 'hkhkpartiesformclassvar';
 
   constructor() {
     this.parties = Parties.find();
